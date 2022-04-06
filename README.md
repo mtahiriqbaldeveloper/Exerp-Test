@@ -1,6 +1,6 @@
 # Exerp-Test
 Rank Key Problem
-# Dependenices to run the code
+# Dependenices to run the code /n
 1- Java 8
 2- spring boot
 3- jdk 1.8
