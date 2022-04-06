@@ -14,8 +14,6 @@ Rank Key Problem <br/>
 2 run maven to reslove the depencices in pom.xml file <br/>
 3- then run build the project <br/>
 4- hit the end-point(api) "http://localhost:8080/api/top-words" <br/>
-# Another way run the project
-5- open project intellij run this command  "java -jar target/demo-0.0.1-SNAPSHOT.jar" 
 
 # For first one project just open any ide and set the main class and run the project
 
