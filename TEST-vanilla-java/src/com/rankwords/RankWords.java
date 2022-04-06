@@ -21,13 +21,7 @@ public class RankWords {
         }
 
         ArrayList<Map.Entry<String, Integer>> wordsEntry = new ArrayList<>(map.entrySet());
-        Collections.sort(wordsEntry, new Comparator<Map.Entry<String, Integer>>() {
-
-            @Override
-            public int compare(Map.Entry<String, Integer> a, Map.Entry<String, Integer> b) {
-                return a.getValue().compareTo(b.getValue());
-            }
-        });
+        Collections.sort(wordsEntry, Comparator.comparing(Map.Entry::getValue));
 
 
         Dictionary<String,Integer> topRankWords=new Hashtable<String,Integer>();
